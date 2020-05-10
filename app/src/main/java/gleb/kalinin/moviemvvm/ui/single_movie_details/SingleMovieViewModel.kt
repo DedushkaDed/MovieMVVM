@@ -1,4 +1,4 @@
-package gleb.kalinin.moviemvvm.single_movie_details
+package gleb.kalinin.moviemvvm.ui.single_movie_details
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
