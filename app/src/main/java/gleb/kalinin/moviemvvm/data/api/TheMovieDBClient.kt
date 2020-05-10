@@ -12,6 +12,9 @@ const val BASE_URL = "https://api.themoviedb.org/3/"
 
 const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w342" // Начало URL -> облачное хранилище всех изображений. К нему добавляем: "poster_path": "Ссылка на картинку". Это и есть ссылка на изображение.
 
+const val FIRST_PAGE = 1
+const val POST_PER_PAGE = 20
+
     // https://api.themoviedb.org/3/movie/popular?api_key=b764966fe6510611a5336b30098acde1&language=en-US&page=1 - Популярные фильмы
     // https://api.themoviedb.org/3/movie/338762?api_key=b764966fe6510611a5336b30098acde1&language=en-US - Информация о одном фильме
     // https://image.tmdb.org/t/p/w342/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg -> Логотип
